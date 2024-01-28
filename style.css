@@ -1,0 +1,450 @@
+.lehautducorps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.posterieur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tête{
+    position: relative;
+    top: 40px;
+    left: 35px;
+    z-index: 2;
+}
+
+
+.pec{
+    animation: pec 1s alternate infinite;
+}
+
+
+
+@keyframes pec {
+    from{
+        transform: translateY(1px);
+    }
+    to{
+        transform: translateY(2px);
+    }
+}
+
+
+
+.corps{
+    z-index: 3;
+    animation: corps 1s alternate infinite;
+}
+
+
+@keyframes corps {
+    from{
+        transform: scaleY(1.02);
+    }    
+    to{
+        transform: scaleY(1.03);
+    }
+}
+
+
+
+.gauche{
+    position: relative;
+    top: 230px;
+}
+
+
+
+
+.droit{
+    position: relative;
+    top: 230px;
+    
+}
+
+
+.musclepauldroit{
+    position: relative;
+    right: 17px;
+    z-index: 2;
+    animation: musclepauldroit 1s alternate infinite;
+}
+
+
+
+.musclepaulgauch{
+    position: relative;
+    left: 20px;
+    z-index: 2;
+    animation: musclepaulgauch 1s alternate infinite;
+}
+
+
+
+@keyframes musclepaulgauch {
+    from{
+        transform: scale(1.02) translateY(1px);
+    }    
+    to{
+        transform: scale(1.04) translateY(-2px);
+    }
+}
+
+
+@keyframes musclepauldroit {
+    from{
+        transform: scale(1.04) translateY(-2px);
+    }    
+    to{
+        transform: scale(1.02) translateY(1px);
+    }
+}
+
+
+.bisepsdroit{
+    position: relative;
+    bottom: 56px;
+    right: 6px;
+    animation: bisepsdroit 1s alternate infinite;
+}
+
+
+@keyframes bisepsdroit {
+    from{
+        transform: scaleY(1px);
+    }
+    to{
+        transform: scaleY(0.9);
+    }
+}
+
+
+.bisepsgauch{
+    position: relative;
+    bottom: 56px;
+    left: 6px;
+    animation: bisepsgauch 1s alternate infinite;
+}
+
+
+@keyframes bisepsgauch {
+    from{
+        transform: scaleY(0.9);
+    }
+    to{
+        transform: scaleY(1px);
+    }
+}
+
+
+
+.avantbrasdroit{
+    position: relative;
+    bottom: 138px;
+    left: 11px;
+    animation: avantbrasdroit 1s alternate infinite;
+}
+
+
+@keyframes avantbrasgauch {
+    from{
+        transform: scaleY(0.9) translateY(-7px);
+    }
+    to{
+        transform: scaleY(1px);
+    }
+}
+
+
+
+
+.avantbrasgauch{
+    position: relative;
+    bottom: 138px;
+    animation: avantbrasgauch 1s alternate infinite;
+}
+
+
+
+@keyframes avantbrasdroit {
+    from{
+        transform: scaleY(1px);
+    }
+    to{
+        transform: scaleY(0.9) translateY(-7px);
+    }
+}
+
+
+
+
+.superpointdroit{
+    position: relative;
+    bottom: 166px;
+    left: 2px;
+    animation: superpointdroit 1s alternate infinite;
+}
+
+
+
+@keyframes superpointdroit {
+    from{
+        transform: scaleY(1px);
+        transform: scale(1.1);
+    }
+    to{
+        transform: scaleY(0.9) translateY(-17px);
+    }
+}
+
+
+
+.superpointgauch{
+    position: relative;
+    bottom: 166px;
+    left: 32px;
+    animation: superpointgauch 1s alternate infinite;
+}
+
+
+@keyframes superpointgauch {
+    from{
+        transform: scaleY(0.9) translateY(-17px);
+    }
+    to{
+        transform: scaleY(1px);
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+.cuisegauch{
+    position: relative;
+    bottom: 67px;
+    z-index: 2;
+    animation: cuisegauch 1s alternate infinite;
+}
+
+
+@keyframes cuisegauch {
+    from{
+        transform: scaleY(1.05) translateY(10px);
+    }
+    to{
+        transform: scaleY(1.07);
+        transform: scale(1.02);
+    }
+}
+
+
+.cuisedroit{
+    position: relative;
+    bottom: 67px;
+    z-index: 2;
+    animation: cuisedroit 1s alternate infinite;
+}
+
+
+
+@keyframes cuisedroit {
+    from{
+        transform: scaleY(1.07);
+        transform: scale(1.02);
+    }
+    to{
+        transform: scaleY(1.05) translateY(10px);
+    }
+}
+
+
+
+.genoudroit{
+    position: relative;
+    bottom: 125px;
+    left: 13px;
+    z-index: 1;
+    animation: genoudroit 1s alternate infinite;
+}
+
+
+
+@keyframes genoudroit {
+    from{
+        transform: scaleY(2);
+    }
+    to{
+        transform: scaleY(1) translateY(16px);
+    }
+}
+
+
+
+
+.genougauch{
+    position: relative;
+    bottom: 125px;
+    left: 24px;
+    z-index: 1;
+    animation: genougauch 1s alternate infinite;
+}
+
+
+
+@keyframes genougauch {
+    from{
+        transform: scaleY(1) translateY(16px);
+    }
+    to{
+        transform: scaleY(2);
+    }
+}
+
+
+
+
+
+.mauledroit{
+    position: relative;
+    bottom: 176px;
+    left: 9px;
+    animation: mauledroit 1s alternate infinite;
+}
+
+
+@keyframes mauledroit {
+    from{
+        transform: scaleY(0.8);
+    }
+    to{
+        transform: scaleY(1) translateY(16px);
+    }
+}
+
+
+
+.maulegauch{
+    position: relative;
+    bottom: 176px;
+    left: 11px;
+    animation: maulegauch 1s alternate infinite;
+}
+
+
+@keyframes maulegauch {
+    from{
+        transform: scaleY(1) translateY(14px);
+    }
+    to{
+        transform: scaleY(0.8);
+    }
+}
+
+
+.pieddroit{
+    position: relative;
+    bottom: 213px;
+    right: 3px;
+    animation: pieddroit 1s alternate infinite;
+}
+
+
+
+@keyframes pieddroit {
+    from{
+        transform: scaleY(1.4) translateY(-14px);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}
+
+
+.piedgauch{
+    position: relative;
+    bottom: 213px;
+    left: 37px;
+    animation: piedgauch 1s alternate infinite;
+}
+
+
+@keyframes piedgauch {
+    0%{
+        transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(1.4) translateY(-14px);
+    }
+}
+
+.personne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 70rem;
+    animation: personne 30s;
+
+}
+
+
+@keyframes personne {
+    0%{
+        transform: scale(4) translateY(-30rem);
+    }
+    40%{
+        transform: scale(4) translateY(22rem);
+    }
+    100%{
+        transform:scale(0.4) translateY(-30rem)
+    }
+}
+
+
+.person{
+    animation: person 1s alternate infinite;
+}
+
+@keyframes person {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+
+
+.mouvement{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 10rem;
+    border-style: solid;
+
+    background-image: url(./pexels-eberhard-grossgasteiger-1292301.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.font{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.397);
+}
